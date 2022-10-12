@@ -1,0 +1,39 @@
+.tituloC{
+    font-weight: bold;
+    /* color: #c99806; */
+    color: white;
+    font-size: 30px;
+    font-style: normal; 
+}
+
+.titulo{
+    height: 135px !important;
+}
+
+.fondoInicial{
+    background: url('https://c.wallhere.com/images/52/8c/3bd7c22b3a5abe40f7debd9f372d-1520109.jpg!d');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    clip-path: polygon(0 0,100% 0,100% 90%,0 100%); 
+    overflow: hidden;
+    overflow-x: hidden!important;
+}
+
+@media (max-width: 767px){
+    .fondoInicial {
+        background-position: 50% 0!important;
+    }
+}
+
+.carta{
+    height: 100%;
+    height: 100%;
+}
+
+.redondeado{
+    border-radius: 20px;
+}
